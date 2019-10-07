@@ -1,0 +1,24 @@
+{
+  "name": "github-actions-demo",
+  "version": "1.0.0",
+  "description": "reo to test github actions",
+  "main": "sync.js",
+  "dependencies": {
+    "@actions/core": "^1.1.3",
+    "@actions/github": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackthornio/deploy-builds-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackthornio/deploy-builds-action/issues"
+  },
+  "homepage": "https://github.com/blackthornio/deploy-builds-action#readme"
+}

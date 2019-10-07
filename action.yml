@@ -1,0 +1,5 @@
+name: 'deploy-builds-action'
+description: 'deploy builds to a github builds repo'
+runs:
+  using: 'node12'
+  main: 'main.js'
