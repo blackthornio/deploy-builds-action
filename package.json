@@ -3,13 +3,9 @@
   "version": "1.0.0",
   "description": "reo to test github actions",
   "main": "lib/index.js",
-  "dependencies": {
-    "@actions/core": "^1.1.3",
-    "@actions/exec": "^1.0.1",
-    "@actions/github": "^1.1.0",
-    "@actions/io": "^1.0.1"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@actions/core": "^1.1.3",
     "@types/node": "^12.7.12",
     "@zeit/ncc": "^0.20.5",
     "typescript": "^3.6.3"

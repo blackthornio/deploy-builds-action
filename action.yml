@@ -7,3 +7,9 @@ inputs:
   files:
     description: 'files to be deployed'
     required: true
+  owner:
+    description: 'repo owner'
+    required: true
+  repo:
+    description: 'repo name'
+    required: true
