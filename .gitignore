@@ -2,7 +2,7 @@
 # Created by https://www.gitignore.io/api/osx,node,linux,angular,windows,sublimetext,webstorm+all,visualstudiocode
 
 # dependencies
-# /node_modules we need this with github actions
+node_modules
 
 # IDEs and editors
 /.idea

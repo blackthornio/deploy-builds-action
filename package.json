@@ -2,13 +2,20 @@
   "name": "github-actions-demo",
   "version": "1.0.0",
   "description": "reo to test github actions",
-  "main": "sync.js",
+  "main": "lib/index.js",
   "dependencies": {
     "@actions/core": "^1.1.3",
-    "@actions/github": "^1.1.0"
+    "@actions/exec": "^1.0.1",
+    "@actions/github": "^1.1.0",
+    "@actions/io": "^1.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.7.12",
+    "@zeit/ncc": "^0.20.5",
+    "typescript": "^3.6.3"
+  },
   "scripts": {
+    "build": "ncc build src/main.ts -m -o lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
